@@ -40,7 +40,7 @@ public class GeoLocation {
         return numLocations;
     }
 
-    // Atstumo kilometrais skaiciavimo metodas
+    // Atstumo kilometrais skaičiavimo metodas
     public static double distance(GeoLocation loc1, GeoLocation loc2) {
         final int R = 6371;
         double lat1Rad = Math.toRadians(loc1.lat);
